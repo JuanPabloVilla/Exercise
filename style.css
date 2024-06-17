@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.flex-container{
+    display: inline-block;
+    margin-left: 250px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cage{
+    display: flex;
+    border: solid 3px #8DAE25;
+    width: 110vh;
+    height: 65vh;
+    background-image: url(./assets/fondo-flex.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    align-items: end;
+}
+
+img {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+}
+
+.content1{
+    margin-bottom: 100px;
+}
+
+.content2{
+    margin-bottom: 215px;
+}
+
+.content3{
+    align-self: flex-end;
+}
+
+.content4{
+    margin-bottom: 215px;
+}
+
+.content5{
+    margin-bottom: 100px;
+}
